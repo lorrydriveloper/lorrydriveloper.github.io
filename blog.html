@@ -1,11 +1,15 @@
----
-layout: default
-title: 'Happy coding'
----
-
-<h1>Blog</h1>
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <title>Happy coding - Jekyllwind</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <body>
+    <h1>Blog</h1>
 <ul>
-  {% for post in site.posts %}
+  
   <div class="max-w-screen-xl mx-auto p-16">
     <div class="sm:grid lg:grid-cols-3 sm:grid-cols-2 gap-10">
       <div
@@ -82,7 +86,10 @@ title: 'Happy coding'
     </div>
   </div>
   <!-- <li>
-    <a href="{{ post.url }}">{{ post.title }}</a>
+    <a href="/jekyll/update/2024/04/08/welcome-to-jekyll.html">Welcome to Jekyll!</a>
   </li> -->
-  {% endfor %}
+  
 </ul>
+
+  </body>
+</html>
