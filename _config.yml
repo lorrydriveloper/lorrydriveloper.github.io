@@ -1,6 +1,6 @@
 url: "https://www.lorrydriveloper.com"
 baseurl: ""
-title: "Jekyllwind"
+title: "lorrydriveloper"
 
 plugins:
   - jekyll-postcss
