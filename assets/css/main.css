@@ -4,3 +4,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@font-face {
+  font-family: 'truck_driver';
+  src: url('../fonts/truckdriver-webfont.woff2') format('woff2'),
+    url('../fonts/truckdriver-webfont.woff') format('woff'),
+    url('../fonts/truckdriver-webfont.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: "Bubblegum Sans Regular";
+  src: url("../fonts/BubblegumSans-Regular.eot?") format("eot"), 
+  url("../fonts/BubblegumSans-Regular.woff") format("woff"),
+   url("../fonts/BubblegumSans-Regular.ttf") format("truetype"), 
+   url("../fonts/BubblegumSans-Regular.svg#BubblegumSans-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@layer components {
+  .title-font {
+    font-family: 'truck_driver', sans-serif !important
+  }
+  .body-font {
+    font-family: "Bubblegum Sans Regular", sans-serif;
+  }
+}
