@@ -3,27 +3,443 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>Happy coding - lorrydriveloper</title>
+    <title>FullStack Ruby on Rails Developer | Frontend & CSS Specialist - lorrydriveloper</title>
     <link rel="stylesheet" href="/assets/css/main.css">
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body class="body-font">
-    <header>
+    <!-- Hero Section -->
+<header>
   <div class="h-screen w-full bg-right bg-cover" style="background-image: url(/assets/img/lorry.jpg)">
     <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
       <div class="text-center">
         <div class="container px-4 mx-auto">
           <div class="max-w-4xl mx-auto text-center">
             <h1 class="text-red-600 lg:text-8xl text-5xl tracking-wide title-font">LorryDriveloper</h1>
-            <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">coming soon</h2>
+            <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">FullStack Ruby on Rails Developer</h2>
             <p class="max-w-3xl mx-auto mb-10 text-lg text-gray-300">
-              Working on my first Jekyll Page ✌️
+              Former truck driver turned software developer. Specializing in Ruby on Rails, 
+              frontend development, and CSS. Bringing real-world logistics experience to web development.
             </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+              <a href="#services" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300">
+                My Services
+              </a>
+              <a href="#contact" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 font-bold py-3 px-8 rounded-lg transition duration-300">
+                Get In Touch
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
 </header>
+
+<!-- Services Section -->
+<section id="services" class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">My Services</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Full-stack web development services with expertise in Ruby on Rails, frontend technologies, and CSS
+      </p>
+    </div>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7h12m0 0l-4-4m4 4l-4 4m0 6H4m0 0l4 4m-4-4l4-4"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Ruby on Rails Development</h3>
+        <p class="text-gray-600">
+          Full-stack web applications built with Ruby on Rails. From API development to database design and deployment.
+        </p>
+      </div>
+      
+      <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Frontend &amp; CSS Specialist</h3>
+        <p class="text-gray-600">
+          Beautiful, responsive user interfaces with modern CSS, JavaScript, and frontend frameworks. Pixel-perfect designs.
+        </p>
+      </div>
+      
+      <div class="bg-white p-8 rounded-lg shadow-lg text-center">
+        <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-6">
+          <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-bold text-gray-900 mb-4">Problem Solving &amp; Efficiency</h3>
+        <p class="text-gray-600">
+          Bringing a unique perspective from my diverse background to build efficient, scalable solutions. 
+          I understand real-world challenges and approach problems with practical, logical thinking.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Skills Section -->
+<section class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Technical Skills</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Technologies and tools I work with to build amazing web applications
+      </p>
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="text-center">
+          <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Backend Development</h3>
+          <div class="space-y-2">
+            <p class="text-gray-600">Ruby on Rails</p>
+            <p class="text-gray-600">PostgreSQL</p>
+            <p class="text-gray-600">API Development</p>
+            <p class="text-gray-600">Database Design</p>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Frontend Development</h3>
+          <div class="space-y-2">
+            <p class="text-gray-600">HTML5 &amp; CSS3</p>
+            <p class="text-gray-600">JavaScript</p>
+            <p class="text-gray-600">Responsive Design</p>
+            <p class="text-gray-600">Tailwind CSS</p>
+          </div>
+        </div>
+        
+        <div class="text-center">
+          <div class="w-16 h-16 bg-red-600 rounded-full flex items-center justify-center mx-auto mb-4">
+            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24">
+              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+            </svg>
+          </div>
+          <h3 class="text-xl font-bold text-gray-900 mb-4">Tools &amp; Practices</h3>
+          <div class="space-y-2">
+            <p class="text-gray-600">Git &amp; GitHub</p>
+            <p class="text-gray-600">Pair Programming</p>
+            <p class="text-gray-600">Agile Development</p>
+            <p class="text-gray-600">Continuous Learning</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold text-gray-900 mb-8">About LorryDriveloper</h2>
+      <p class="text-xl text-gray-600 mb-8">
+        I'm a 42-year-old Spaniard who moved to the UK in 2015 as a lorry driver, but I'm now returning to my country to be closer to family. 
+        I quit a well-paying, stable job to follow my childhood dream of becoming a developer, graduating from Flatiron School and transforming 
+        my passion into a career. I love to talk about code, pair programming, and continuous learning.
+      </p>
+      <p class="text-lg text-gray-600 mb-8">
+        As a professional driver, I drove almost every type of vehicle on the road and travelled to all EU countries on the continent at least once. 
+        I covered enough kilometers to circle the world several times over. My journey has given me a unique perspective, resilience, and a deep 
+        appreciation for teamwork—qualities that can't be taught. I thrive in supportive, collaborative environments where I can bring my logical 
+        mindset, curiosity, and drive to solve real-world problems.
+      </p>
+      <div class="text-center mb-8">
+        <a href="https://www.writesoftwarewell.com/lorry-driver-to-rails-developer-at-38" target="_blank" class="inline-flex items-center bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+          <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+          </svg>
+          Read My Story: From Truck Driver to Rails Developer
+        </a>
+      </div>
+      <div class="grid md:grid-cols-2 gap-8 mt-12">
+        <div class="text-left">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">My Expertise</h3>
+          <ul class="space-y-3 text-gray-600">
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-red-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Ruby on Rails full-stack development
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-red-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Frontend development &amp; CSS mastery
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-red-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Real-world logistics experience
+            </li>
+            <li class="flex items-center">
+              <svg class="w-5 h-5 text-red-600 mr-3" fill="currentColor" viewBox="0 0 20 20">
+                <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+              </svg>
+              Problem-solving &amp; efficiency focus
+            </li>
+          </ul>
+        </div>
+        <div class="text-left">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">Current Role</h3>
+          <p class="text-gray-600 mb-4">
+            Over the past year, I have played a leading role in driving technical innovation and business value at Gocertify, 
+            co-leading major architectural projects and helping our small team deliver features that make a tangible impact for clients.
+          </p>
+          <p class="text-gray-600">
+            I am always eager to contribute to a team where passion, learning, and shared success are valued.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Books Section -->
+<section class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">Influential Programming Books</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        Books that have shaped my understanding of Ruby on Rails and software development
+      </p>
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Layered Design for Ruby on Rails Applications</h3>
+          <p class="text-gray-600 mb-3">by Vladimir Dementyev</p>
+          <p class="text-sm text-gray-600">
+            Essential reading for understanding Rails architecture and building maintainable applications.
+          </p>
+        </div>
+        
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Rebuilding Rails</h3>
+          <p class="text-gray-600 mb-3">by Noah Gibbs</p>
+          <p class="text-sm text-gray-600">
+            Deep dive into Rails internals that helped me understand the framework at a fundamental level.
+          </p>
+        </div>
+        
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Ruby Under a Microscope</h3>
+          <p class="text-gray-600 mb-3">by Pat Shaughnessy</p>
+          <p class="text-sm text-gray-600">
+            Fascinating exploration of Ruby's internals and how the language works under the hood.
+          </p>
+        </div>
+        
+        <div class="bg-gray-50 p-6 rounded-lg">
+          <h3 class="text-xl font-bold text-gray-900 mb-3">Practical Object-Oriented Design in Ruby</h3>
+          <p class="text-gray-600 mb-3">by Sandi Metz</p>
+          <p class="text-sm text-gray-600">
+            Masterclass in writing clean, maintainable Ruby code with proper object-oriented design principles.
+          </p>
+        </div>
+      </div>
+      
+      <div class="text-center mt-8">
+        <p class="text-gray-600 italic">
+          "I should revisit some of them as my perspective and way of seeing things are still in progress and constantly evolving. 
+          I am still on a learning adventure for all these principles that other people from a more traditional background have learned 
+          while I'm still discovering them."
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Daily Routine Section -->
+<section class="py-20 bg-gray-50">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-4xl font-bold text-gray-900 mb-4">My Development Philosophy</h2>
+      <p class="text-xl text-gray-600 max-w-2xl mx-auto">
+        How I approach coding, learning, and collaboration
+      </p>
+    </div>
+    
+    <div class="max-w-4xl mx-auto">
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">My Typical Day</h3>
+          <div class="space-y-4">
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mr-4 mt-1">
+                <span class="text-white text-sm font-bold">1</span>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Code &amp; Collaborate</h4>
+                <p class="text-gray-600 text-sm">Writing code, pair programming, and reviewing PRs</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mr-4 mt-1">
+                <span class="text-white text-sm font-bold">2</span>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Design &amp; Architecture</h4>
+                <p class="text-gray-600 text-sm">Conceptual designs and R&amp;D for new features</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-8 h-8 bg-red-600 rounded-full flex items-center justify-center mr-4 mt-1">
+                <span class="text-white text-sm font-bold">3</span>
+              </div>
+              <div>
+                <h4 class="font-semibold text-gray-900">Teach &amp; Learn</h4>
+                <p class="text-gray-600 text-sm">Helping peers and learning from others</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white p-8 rounded-lg shadow-lg">
+          <h3 class="text-2xl font-bold text-gray-900 mb-6">My Learning Approach</h3>
+          <div class="space-y-4">
+            <div class="border-l-4 border-red-600 pl-4">
+              <h4 class="font-semibold text-gray-900">Learn How to Learn</h4>
+              <p class="text-gray-600 text-sm">Everyone is different - find what works best for you</p>
+            </div>
+            <div class="border-l-4 border-red-600 pl-4">
+              <h4 class="font-semibold text-gray-900">Focus &amp; Depth</h4>
+              <p class="text-gray-600 text-sm">Don't try to learn everything - focus on what you love</p>
+            </div>
+            <div class="border-l-4 border-red-600 pl-4">
+              <h4 class="font-semibold text-gray-900">Learn by Doing</h4>
+              <p class="text-gray-600 text-sm">Watch tutorials and go beyond them in areas you want to learn</p>
+            </div>
+            <div class="border-l-4 border-red-600 pl-4">
+              <h4 class="font-semibold text-gray-900">Ask Questions</h4>
+              <p class="text-gray-600 text-sm">The silliest question is the one that is not asked</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="text-center mt-12">
+        <div class="bg-white p-8 rounded-lg shadow-lg max-w-3xl mx-auto">
+          <h3 class="text-2xl font-bold text-gray-900 mb-4">My Favorite Quote</h3>
+          <blockquote class="text-xl text-gray-700 italic">
+            "If you find a job you love, you'll never work again..."
+          </blockquote>
+          <p class="text-gray-600 mt-2">— Winston Churchill</p>
+          <p class="text-gray-600 mt-4">
+            For me, it is all about passion; it was a hobby, but now it is my job.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 bg-gray-900 text-white">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-4xl font-bold mb-8">Get In Touch</h2>
+      <p class="text-xl text-gray-300 mb-12">
+        Ready to build something amazing? Let's discuss your project and how I can help bring your ideas to life.
+      </p>
+      
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="bg-gray-800 p-8 rounded-lg">
+          <h3 class="text-2xl font-bold mb-6">Contact Information</h3>
+          <div class="space-y-4 text-left">
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-red-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+              <span>Remote - Worldwide</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-red-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
+              </svg>
+              <span>Available for Projects</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-6 h-6 text-red-600 mr-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+              <span>hello@lorrydriveloper.com</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-gray-800 p-8 rounded-lg">
+          <h3 class="text-2xl font-bold mb-6">Technologies &amp; Services</h3>
+          <div class="text-left space-y-3">
+            <p class="text-gray-300">• Ruby on Rails development</p>
+            <p class="text-gray-300">• Frontend &amp; CSS expertise</p>
+            <p class="text-gray-300">• Web application development</p>
+            <p class="text-gray-300">• Remote &amp; freelance projects</p>
+          </div>
+          <div class="mt-6">
+            <a href="mailto:hello@lorrydriveloper.com" class="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">
+              Start a Project
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Legal Footer -->
+<footer class="bg-gray-800 text-gray-300 py-8">
+  <div class="container mx-auto px-4">
+    <div class="max-w-4xl mx-auto">
+      <div class="border-t border-gray-700 pt-6">
+        <div class="text-center">
+          <p class="text-sm mb-2">
+            <strong>Legal Owner:</strong> lorrydriveloper
+          </p>
+          <p class="text-sm mb-2">
+            <strong>Entity ID:</strong> REDACTED | <strong>Filing Type:</strong> Business Formation
+          </p>
+          <p class="text-sm mb-2">
+            <strong>Address:</strong> REDACTED
+          </p>
+        </div>
+        <div class="text-center mt-6 pt-6 border-t border-gray-700">
+          <p class="text-sm">
+            © 2025 lorrydriveloper. All rights reserved. | FullStack Ruby on Rails Developer
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
 
   </body>
 </html>
