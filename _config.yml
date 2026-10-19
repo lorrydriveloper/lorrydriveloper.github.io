@@ -1,6 +1,9 @@
 url: "https://www.lorrydriveloper.com"
 baseurl: ""
-title: "lorrydriveloper"
+title: "Pedro David García López"
+author: "Pedro David García López"
+description: "Senior Backend & Product Engineer working in Ruby on Rails and software architecture."
+lang: "en-GB"
 
 plugins:
   - jekyll-postcss

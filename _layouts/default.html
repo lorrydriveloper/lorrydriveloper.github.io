@@ -3,7 +3,18 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
-    <title>{{ page.title }} - {{ site.title }}</title>
+    {% assign page_title = page.title | default: site.title %}
+    {% if page.url != "/" %}{% assign page_title = page_title | append: " · " | append: site.author %}{% endif %}
+    {% assign page_description = page.description | default: site.description %}
+    <title>{{ page_title }}</title>
+    <meta name="description" content="{{ page_description | escape }}">
+    <meta name="author" content="{{ site.author }}">
+    <link rel="canonical" href="{{ page.url | absolute_url }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page_title | escape }}">
+    <meta property="og:description" content="{{ page_description | escape }}">
+    <meta property="og:url" content="{{ page.url | absolute_url }}">
+    <meta property="og:image" content="{{ "/assets/img/lorry.jpg" | absolute_url }}">
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <style>
       html {
