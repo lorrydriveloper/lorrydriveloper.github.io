@@ -8,10 +8,10 @@
 
 
 @font-face {
-  font-family: 'truck_driver';
-  src: url('../fonts/truckdriver-webfont.woff2') format('woff2'),
-    url('../fonts/truckdriver-webfont.woff') format('woff'),
-    url('../fonts/truckdriver-webfont.ttf') format('ttf');
+  font-family: "truck_driver";
+  src: url("../fonts/truckdriver-webfont.woff2") format("woff2"),
+    url("../fonts/truckdriver-webfont.woff") format("woff"),
+    url("../fonts/truckdriver-webfont.ttf") format("ttf");
   font-weight: normal;
   font-style: normal;
 
@@ -19,30 +19,30 @@
 
 /* Bricolage Grotesque and Figtree: SIL Open Font License 1.1, latin subset from Fontsource */
 @font-face {
-  font-family: 'Bricolage Grotesque';
+  font-family: "Bricolage Grotesque";
   font-style: normal;
   font-display: swap;
   font-weight: 200 800;
-  src: url('../fonts/bricolage-grotesque-latin-wght-normal.woff2') format('woff2-variations');
+  src: url("../fonts/bricolage-grotesque-latin-wght-normal.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'Figtree';
+  font-family: "Figtree";
   font-style: normal;
   font-display: swap;
   font-weight: 300 900;
-  src: url('../fonts/figtree-latin-wght-normal.woff2') format('woff2-variations');
+  src: url("../fonts/figtree-latin-wght-normal.woff2") format("woff2-variations");
 }
 
 @layer components {
   .title-font {
-    font-family: 'truck_driver', sans-serif !important
+    font-family: "truck_driver", sans-serif !important
   }
   .body-font {
-    font-family: 'Figtree', system-ui, sans-serif;
+    font-family: "Figtree", system-ui, sans-serif;
   }
   .body-font :is(h1, h2, h3, h4) {
-    font-family: 'Bricolage Grotesque', system-ui, sans-serif;
+    font-family: "Bricolage Grotesque", system-ui, sans-serif;
     letter-spacing: -0.01em;
   }
 }
